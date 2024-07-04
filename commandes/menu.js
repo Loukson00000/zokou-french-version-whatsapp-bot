@@ -6,7 +6,7 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "menu", reaction:"📁",categorie: "Général" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", reaction:"🍜",categorie: "Général" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧${s.BOT}✧────◆
+╭───🌀${s.BOT}🌀────◆
 🍜  *Préfixe* : ${s.PREFIXE}
 │   *Owner* : ${s.NOM_OWNER}
 🍥  *Mode* : ${mode}
@@ -46,17 +46,18 @@ const date = moment().format('DD/MM/YYYY');
 🍜🌀🤘🏻🍥🄻🄾🅄🄺🅂🄾🄽🤘🏻🍜🍥🌀
 🤘🏻🤘🏻🤘🏻🤘🏻🅄🅉🅄🄼🄰🄺🄸🤘🏻🤘🏻🤘🏻🤘🏻
 🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜
-╰─────✧WA-BOT✧─────◆ \n\n`;
+╰─────🍜ɴᴀʀᴜᴛᴏ🍜─────◆ \n\n`;
     
 let menuMsg = `
-🤘🏻 Yo ${nomAuteurMessage} 🤘🏻
+🤘🏻ʏᴏ ᴍᴀɴ sᴀʟᴜᴛ ᴍᴏɪ ᴄ'ᴇsᴛ ʟᴏᴜᴋsᴏɴ
+    ${nomAuteurMessage} 🤘🏻
 
-*Voici la liste de mes commandes :*
+*ʏᴏ 🤘🏻 Voici la liste de mes commandes :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭────❏ *${cat}* ❏`;
+        menuMsg += `╭────🤘🏻 *${cat}* 🤘🏻`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 │ ${cmd}`;
@@ -67,12 +68,13 @@ let menuMsg = `
 
     menuMsg += `
 ◇            ◇
-*»»————— ★ —————««*
+*»»————— 🍥 —————««*
 Pour utiliser  une  commande, tapez  ${prefixe}"nom de la commande"
  
- powered by zokou-md
-                                                
-*»»————— ★ —————««*
+ powered by 🄽🄰🅁🅄🅃🄾
+ 
+     🄻🄾🅄🄺🅂🄾🄽                                         
+*»»————— 🍥 —————««*
 `;
 
     
