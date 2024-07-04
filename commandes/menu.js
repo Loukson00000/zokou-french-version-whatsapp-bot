@@ -32,20 +32,24 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭────✧${s.BOT}✧────◆
-│   *Préfixe* : ${s.PREFIXE}
+🍜  *Préfixe* : ${s.PREFIXE}
 │   *Owner* : ${s.NOM_OWNER}
-│   *Mode* : ${mode}
+🍥  *Mode* : ${mode}
 │   *Commandes* : ${cm.length}
 │   *Date* : ${date}
-│   *Heure* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+🤘🏻  *Heure* : ${temps}
+🍥  *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │   *Plateforme* : ${os.platform()}
-│   *Développeurs* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
+│   *Développeurs* :  ʟᴏᴜᴋsᴏɴ×ᴜᴢᴜᴍᴀᴋɪ
+🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥🍥
+🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀
+🍜🌀🤘🏻🍥🄻🄾🅄🄺🅂🄾🄽🤘🏻🍜🍥🌀
+🤘🏻🤘🏻🤘🏻🤘🏻🅄🅉🅄🄼🄰🄺🄸🤘🏻🤘🏻🤘🏻🤘🏻
+🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜🍜
 ╰─────✧WA-BOT✧─────◆ \n\n`;
     
 let menuMsg = `
-👋 salut ${nomAuteurMessage} 👋
+🤘🏻 Yo ${nomAuteurMessage} 🤘🏻
 
 *Voici la liste de mes commandes :*
 ◇                             ◇
