@@ -1,9 +1,9 @@
 {
   "name":"Zokou-2.0",
-  "description":"bot whatsapp développé par djalega++",
+  "description":"bot whatsapp développé par ✦☆ʟᴏᴜᴋsᴏɴ×ᴜᴢᴜᴍᴀᴋɪ☆✦",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "logo":"https://telegra.ph/file/315e41d18f5f32b2d767f.jpg",
+  "repository":"https://github.com/Loukson/zokou-french-version-whatsapp-bot",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -28,14 +28,14 @@
     "NOM_BOT" : {
        
       "description":"Un nom pour votre bot",
-      "value":"Zokou-MD",
+      "value":" ɴᴀʀᴜᴛᴏ-ᴍᴅ",
       "required":false
 
     } ,
      "LIENS_MENU" : {
     
       "description":"Ajoutez un ou plusieurs lien(s) d'image ou de video pour votre bot ; exemple : lien1,lien2,lien3......",
-      "value":"https://wallpapercave.com/uwp/uwp3943464.jpeg",
+      "value":"https://telegra.ph/file/913f0c1ca77d8ec320894.mp4",
       "required":false
        
      },
@@ -78,19 +78,18 @@
     "NOM_OWNER":
     {
     
-    "description": "Votre nom",
+    "description": "Votre nom",✦☆ʟᴏᴜᴋsᴏɴ×ᴜᴢᴜᴍᴀᴋɪ☆✦
     "required": false,
-    "value": "Djalega++"
+    "value": ""
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "22575285416"
   },
     
-
     "WARN_COUNT":
   {
     "description": "il s'agit de nombre d'avertissement limite",
